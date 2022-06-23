@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegressionSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="HomePage(failed)">
+    <parameter name="headeroptions" value="Developer Tools,Team Tools,Learning Tools,Solutions,Support,Store"/>
+    <classes>
+      <class name="testScripts.HomePageTestCases">
+        <methods>
+          <include name="quitApp"/>
+          <include name="A_testMyHeaderModule"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- testScripts.HomePageTestCases -->
+    </classes>
+  </test> <!-- HomePage(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->

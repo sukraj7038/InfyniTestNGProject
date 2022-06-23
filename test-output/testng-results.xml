@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-17T02:10:09Z" name="Default Suite" finished-at="2022-06-17T02:10:36Z" duration-ms="26869">
+    <groups>
+    </groups>
+    <test started-at="2022-06-17T02:10:09Z" name="comtestnginfyni" finished-at="2022-06-17T02:10:36Z" duration-ms="26869">
+      <class name="testScripts.Parallel_Execution">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testScripts.Parallel_Execution@7a187f14]" started-at="2022-06-17T02:10:09Z" name="launchApplication" finished-at="2022-06-17T02:10:09Z" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="doGooglePageExecution()[pri:0, instance:testScripts.Parallel_Execution@7a187f14]" started-at="2022-06-17T02:10:09Z" name="doGooglePageExecution" finished-at="2022-06-17T02:10:17Z" duration-ms="7658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doGooglePageExecution -->
+        <test-method signature="doInfyniageExecution()[pri:0, instance:testScripts.Parallel_Execution@7a187f14]" started-at="2022-06-17T02:10:17Z" name="doInfyniageExecution" finished-at="2022-06-17T02:10:31Z" duration-ms="14098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doInfyniageExecution -->
+        <test-method signature="dojetbrainsPageExecution()[pri:0, instance:testScripts.Parallel_Execution@7a187f14]" started-at="2022-06-17T02:10:31Z" name="dojetbrainsPageExecution" finished-at="2022-06-17T02:10:36Z" duration-ms="5029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dojetbrainsPageExecution -->
+      </class> <!-- testScripts.Parallel_Execution -->
+    </test> <!-- comtestnginfyni -->
+  </suite> <!-- Default Suite -->
+</testng-results>
