@@ -6,7 +6,7 @@
 
 
     <test name="HomePage">
-        <parameter name="headeroptions" value="$(HeaderOptions)"></parameter>
+        <parameter name="headeroptions" value='Developer Tools,Team Tools,Learning Tools,Solutions,Support,Store'></parameter>
         <classes>
             <class name="testScripts.HomePageTestCases" />
             <class name="testScripts.CommonMethods" />

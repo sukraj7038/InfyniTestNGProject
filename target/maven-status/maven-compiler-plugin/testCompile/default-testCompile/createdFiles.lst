@@ -1,6 +1,6 @@
-testScripts/Parallel_Execution1.class
-testScripts/Grouping.class
-testScripts/Parallel_Execution.class
-testScripts/Priority.class
-testScripts/HomePageTestCases.class
-testScripts/CommonMethods.class
+testScripts\Parallel_Execution1.class
+testScripts\CommonMethods.class
+testScripts\Parallel_Execution.class
+testScripts\Grouping.class
+testScripts\HomePageTestCases.class
+testScripts\Priority.class

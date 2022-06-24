@@ -21,10 +21,13 @@
                 <version>3.0.0-M4</version>
                 <configuration>
                     <suiteXmlFiles>
+                  <!--      <suiteXmlFile>src/main/resources/HomePageTestCases.xml</suiteXmlFile> -->
                     </suiteXmlFiles>
-                    <systemPropertyVariables>
-                        <HeaderOptions>$(HeaderOptions)</HeaderOptions>
+
+               <!--     <systemPropertyVariables>
+                        <HeaderOptions>'Developer Tools,Team Tools,Learning Tools,Solutions,Support,Store'</HeaderOptions>
                     </systemPropertyVariables>
+                -->
 
                 </configuration>
             </plugin>

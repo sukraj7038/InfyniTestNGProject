@@ -42,7 +42,7 @@ public class Action {
     public WebDriver getDriverwithURL(String url)
     {
         res = new Reusable();
-        System.setProperty("webdriver.chrome.driver", "/Users/mithunroy/Downloads/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "C:/Selenium/ChromeDriver/chromedriver.exe");
         driver = new ChromeDriver();
         driver.get(url);
         driver.manage().window().maximize();
